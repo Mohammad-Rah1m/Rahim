@@ -26,7 +26,7 @@ const Skills = () => {
           <div className="flex flex-col gap-5 lg:flex-row">
             <div className="flex gap-5 lg:w-full">
               <SkillsCart
-                imagePath="/images/skills/react.png"
+                imagePath="/images/projects/skyline.jpg"
                 skillName="React"
                 skillNum="80%"
               />
