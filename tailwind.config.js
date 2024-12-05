@@ -10,8 +10,16 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        accent:"var(--accent)",
+        accentDark:"var(--accent-dark)",
+        customGray: 'var(--gray)',
+        customDarkGray:'var(--darkgray)'
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addVariant }) {
+      addVariant("nth-child-even", "&:nth-child(even)");
+    },
+  ],
 };
