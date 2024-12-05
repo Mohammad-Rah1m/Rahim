@@ -15,15 +15,15 @@ export default function Home() {
     "/images/projects/Crowdfunderhub.jpg",
     "/images/projects/binary-patch.jpg",
     "/images/projects/skyline.jpg",
-    "/images/projects/Lubu.jpg",
-    "/images/projects/Sweathead-1.jpg",
+    "/images/projects/instatidy.jpg",
+    "/images/projects/careride.jpg",
   ];
 
   return (
     <div className="homepage">
       <div className="hero-section px-5 xl:px-10 2xl:px-52 lg:h-screen h-auto bg-black flex flex-col-reverse md:flex-row items-center pt-32 pb-20 justify-between">
         <div className="hero-text flex flex-col gap-2 lg:w-1/2">
-          <h5 className="text-gray-500 text-xl text-center md:text-left md-text-2xl">
+          <h5 className="text-gray-500 text-xl text-center md:text-left md:text-2xl">
             Hello, I&apos;m
           </h5>
           <h1 className="text-accent text-center text-5xl font-semibold lg:text-6xl md:text-left">
@@ -34,7 +34,7 @@ export default function Home() {
           </h3>
           <p className="text-gray-300 mt-5 mb-5 text-center md:text-left">
             Looking to develop your site and boost your business?<br></br>{" "}
-            You’re in the right place!
+            You are in the right place!
           </p>
           <div className="flex justify-center md:justify-start">
             <Button text="Hire Me" href="/about" />

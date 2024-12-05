@@ -62,12 +62,12 @@ const page = () => {
               accessibility.
             </p>
             <div className="flex justify-center mt-5 md:justify-start">
-              <Button text="Visit Site" href="/careridenationwide.com" />
+              <Button text="Visit Site" href="https://careridenationwide.com/" />
             </div>
           </div>
           <div className="project-item-img md:w-1/2">
             <Image
-              src="/images/projects/crowdfunderhub.jpg"
+              src="/images/projects/careride.jpg"
               alt="Careride Nationwide"
               layout="responsive"
               className="rounded-lg"
@@ -80,28 +80,24 @@ const page = () => {
         <div className="project-item bg-customGray p-5 rounded-lg flex flex-col-reverse gap-10 md:flex-row md:items-center md:gap-20 lg:p-8 cursor-pointer border border-customGray hover:border-accent transition-colors duration-300 ease-in-out nth-child-even:md:flex-row-reverse">
           <div className="project-item-text md:w-1/2">
             <h6 className="font-medium text-gray-400 text-center md:text-left">
-              CARERIDE NATIONWIDE
+              The Backer Hive
             </h6>
             <h2 className="text-white text-3xl md:text-4xl text-center md:text-left font-semibold">
-              Non-Emergency
-              <span className="text-accent"> Medical Transportation </span>
-              Services
+              Connecting Passionate
+              <span className="text-accent"> Backers </span>
             </h2>
             <p className="text-gray-400 text-center mt-5 md:text-left">
-              CareRide Nationwide provides reliable non-emergency medical
-              transportation, offering ambulatory, wheelchair, and stretcher
-              services. Our professional team ensures safe, timely, and
-              comfortable rides for medical appointments, therapy sessions, and
-              other non-urgent travel needs, prioritizing customer care and
-              accessibility.
+              Backer Hive is a dynamic community where creativity thrives,
+              bringing together enthusiastic backers and creators to turn
+              innovative crowdfunding ideas into reality.
             </p>
             <div className="flex justify-center mt-5 md:justify-start">
-              <Button text="Visit Site" href="/careridenationwide.com" />
+              <Button text="Visit Site" href="https://thebackerhive.com/" />
             </div>
           </div>
           <div className="project-item-img md:w-1/2">
             <Image
-              src="/images/projects/crowdfunderhub.jpg"
+              src="/images/projects/thebackerhive.jpg"
               alt="Careride Nationwide"
               layout="responsive"
               className="rounded-lg"
@@ -110,44 +106,7 @@ const page = () => {
             />
           </div>
         </div>
-
-        <div className="project-item bg-customGray p-5 rounded-lg flex flex-col-reverse gap-10 md:flex-row md:items-center md:gap-20 lg:p-8 cursor-pointer border border-customGray hover:border-accent transition-colors duration-300 ease-in-out nth-child-even:md:flex-row-reverse">
-          <div className="project-item-text md:w-1/2">
-            <h6 className="font-medium text-gray-400 text-center md:text-left">
-              CARERIDE NATIONWIDE
-            </h6>
-            <h2 className="text-white text-3xl md:text-4xl text-center md:text-left font-semibold">
-              Non-Emergency
-              <span className="text-accent"> Medical Transportation </span>
-              Services
-            </h2>
-            <p className="text-gray-400 text-center mt-5 md:text-left">
-              CareRide Nationwide provides reliable non-emergency medical
-              transportation, offering ambulatory, wheelchair, and stretcher
-              services. Our professional team ensures safe, timely, and
-              comfortable rides for medical appointments, therapy sessions, and
-              other non-urgent travel needs, prioritizing customer care and
-              accessibility.
-            </p>
-            <div className="flex justify-center mt-5 md:justify-start">
-              <Button text="Visit Site" href="/careridenationwide.com" />
-            </div>
-          </div>
-          <div className="project-item-img md:w-1/2">
-            <Image
-              src="/images/projects/crowdfunderhub.jpg"
-              alt="Careride Nationwide"
-              layout="responsive"
-              className="rounded-lg"
-              width={100}
-              height={50}
-            />
-          </div>
-        </div>
-
-
       </div>
-
 
       <div className="pricing py-20 px-5 xl:px-10 bg-customDarkGray">
         <h6 className="font-medium text-gray-400 text-center">PRICING</h6>
@@ -160,7 +119,6 @@ const page = () => {
           <Pricing />
         </div>
       </div>
-
     </div>
   );
 };
