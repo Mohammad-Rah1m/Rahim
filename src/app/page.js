@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Button from "@/components/Button";
-import LottieAnimation from "@/components/HeroAnimation.js";
+// import LottieAnimation from "@/components/HeroAnimation.js";
 import { FaCheck } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 // import Marquee from "react-fast-marquee";
@@ -41,7 +41,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-animation flex justify-center md:justify-end lg:w-1/2">
-          <LottieAnimation />
+          {/* <LottieAnimation /> */}
         </div>
       </div>
 
