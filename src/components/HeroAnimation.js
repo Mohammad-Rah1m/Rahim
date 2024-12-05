@@ -1,9 +1,13 @@
 "use client";
 import React from "react";
-import Lottie from "lottie-react";
-import HeroAnimationData from "@/assets/lottie/hero-animation.json";
+// import Lottie from "lottie-react";
+// import HeroAnimationData from "@/assets/lottie/hero-animation.json";
+import dynamic from "next/dynamic";
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 const HeroAnimation = () => {
+  const HeroAnimationData = require("@/assets/lottie/hero-animation.json");
+
   return (
     <div>
       <Lottie
