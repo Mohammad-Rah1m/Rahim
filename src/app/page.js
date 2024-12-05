@@ -1,23 +1,23 @@
 import Image from "next/image";
 import Button from "@/components/Button";
-import LottieAnimation from "@/components/HeroAnimation.js";
+// import LottieAnimation from "@/components/HeroAnimation.js";
 import { FaCheck } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
-import Marquee from "react-fast-marquee";
+// import Marquee from "react-fast-marquee";
 import Pricing from "@/components/Pricing";
 import Resume from "@/components/Resume";
 import Skills from "@/components/Skills";
 import Services from "@/components/Services";
 
 export default function Home() {
-  const projectImages = [
-    "/images/projects/thebackerhive.jpg",
-    "/images/projects/Crowdfunderhub.jpg",
-    "/images/projects/binary-patch.jpg",
-    "/images/projects/skyline.jpg",
-    "/images/projects/instatidy.jpg",
-    "/images/projects/careride.jpg",
-  ];
+  // const projectImages = [
+  //   "/images/projects/thebackerhive.jpg",
+  //   "/images/projects/Crowdfunderhub.jpg",
+  //   "/images/projects/binary-patch.jpg",
+  //   "/images/projects/skyline.jpg",
+  //   "/images/projects/instatidy.jpg",
+  //   "/images/projects/careride.jpg",
+  // ];
 
   return (
     <div className="homepage">
@@ -41,7 +41,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-animation flex justify-center md:justify-end lg:w-1/2">
-          <LottieAnimation />
+          {/* <LottieAnimation /> */}
         </div>
       </div>
 
@@ -128,7 +128,7 @@ export default function Home() {
           <span className="text-accent"> Projects </span>
         </h2>
         <div className="marquee mt-10">
-          <Marquee pauseOnHover speed={50} gradient={false} className="">
+          {/* <Marquee pauseOnHover speed={50} gradient={false} className="">
             {projectImages.map((src, index) => (
               <div key={index} className="mx-3">
                 <Image
@@ -140,7 +140,7 @@ export default function Home() {
                 />
               </div>
             ))}
-          </Marquee>
+          </Marquee> */}
         </div>
         <div className="flex justify-center mt-10">
           <Button text="View More Projects" href="/projects" />
