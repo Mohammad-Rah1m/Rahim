@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Lottie from "lottie-react";
-import HeroAnimationData from "../../public/lottie/hero-animation.json";
+import HeroAnimationData from "@/assets/lottie/hero-animation.json";
 
 const HeroAnimation = () => {
   return (
