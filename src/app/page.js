@@ -24,13 +24,13 @@ export default function Home() {
       <div className="hero-section px-5 xl:px-10 2xl:px-52 lg:h-screen h-auto bg-black flex flex-col-reverse md:flex-row items-center pt-32 pb-20 justify-between">
         <div className="hero-text flex flex-col gap-2 lg:w-1/2">
           <h5 className="text-gray-500 text-xl text-center md:text-left md-text-2xl">
-            Hello, I'm
+            Hello, I&apos;m
           </h5>
           <h1 className="text-accent text-center text-5xl font-semibold lg:text-6xl md:text-left">
             Mohammad Rahim.
           </h1>
           <h3 className="text-white text-center md:text-left text-2xl md:text-3xl lg:text-4xl">
-            Web Designer & Developer
+            Web Designer &amp; Developer
           </h3>
           <p className="text-gray-300 mt-5 mb-5 text-center md:text-left">
             Looking to develop your site and boost your business?<br></br>{" "}
