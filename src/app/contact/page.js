@@ -1,7 +1,7 @@
 import SubPageHero from "@/components/SubPageHero";
 import Contact from "@/components/Contact";
 
-const page = () => {
+const Page = () => {
   return (
     <div>
       <SubPageHero
@@ -15,4 +15,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
