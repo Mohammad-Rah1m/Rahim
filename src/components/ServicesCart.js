@@ -16,7 +16,7 @@ const ServicesCart = ({ serial, title, description }) => {
       <div className="w-[10%]">
         <Image
           id="arrow-up-right"
-          src="/images/arrow-bg.svg" // Path to image in the public folder
+          src="/images/figma.png" // Path to image in the public folder
           alt="services-arrow"
           className="cursor-pointer rounded-lg"
           width={40} // Specify a width to let Next.js calculate the height
