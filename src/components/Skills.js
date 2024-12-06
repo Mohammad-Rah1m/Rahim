@@ -26,24 +26,24 @@ const Skills = () => {
           <div className="flex flex-col gap-5 lg:flex-row">
             <div className="flex gap-5 lg:w-full">
               <SkillsCart
-                imagePath="/images/skills/react.png"
+                imagePath="/images/Skills/react.png"
                 skillName="React"
                 skillNum="80%"
               />
               <SkillsCart
-                imagePath="/images/skills/next-js.svg"
+                imagePath="/images/Skills/next-js.svg"
                 skillName="NextJS"
                 skillNum="80%"
               />
             </div>
             <div className="flex gap-5 lg:w-full">
               <SkillsCart
-                imagePath="/images/skills/wordpress.png"
+                imagePath="/images/Skills/wordpress.png"
                 skillName="WordPress"
                 skillNum="90%"
               />
               <SkillsCart
-                imagePath="/images/skills/html.png"
+                imagePath="/images/Skills/html.png"
                 skillName="HTML"
                 skillNum="95%"
               />
