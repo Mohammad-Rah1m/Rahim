@@ -52,24 +52,24 @@ const Skills = () => {
           <div className="flex flex-col gap-5 mt-5 lg:flex-row">
             <div className="flex gap-5 lg:w-full">
               <SkillsCart
-                imagePath="/images/skills/java-script.png"
+                imagePath="/images/Skills/java-script.png"
                 skillName="React"
                 skillNum="90%"
               />
               <SkillsCart
-                imagePath="/images/skills/css-3.png"
+                imagePath="/images/Skills/css-3.png"
                 skillName="CSS"
                 skillNum="90%"
               />
             </div>
             <div className="flex gap-5 lg:w-full">
               <SkillsCart
-                imagePath="/images/skills/figma.png"
+                imagePath="/images/Skills/figma.png"
                 skillName="Figma"
                 skillNum="70%"
               />
               <SkillsCart
-                imagePath="/images/skills/node-js.png"
+                imagePath="/images/Skills/node-js.png"
                 skillName="NodeJS"
                 skillNum="60%"
               />
