@@ -89,7 +89,7 @@ const page = () => {
             <h2 className="text-white text-3xl md:text-4xl text-center md:text-left font-semibold">
               Shops The Latest
               <span className="text-accent"> Fashion </span>
-              Products
+              Products - Under Construction
             </h2>
             <p className="text-gray-400 text-center mt-5 md:text-left">
             Fashionest is your ultimate online fashion store, offering the latest trends for every style. From casual wear to formal outfits, we provide a wide range of clothing and accessories designed to suit all preferences. Enjoy a seamless shopping experience with fast delivery, secure payments, and exceptional customer service.
@@ -97,14 +97,14 @@ const page = () => {
             <div className="flex justify-center mt-5 md:justify-start">
               <Button
                 text="Visit Site"
-                href="https://careridenationwide.com/"
+                href="https://fashionest.vercel.app/"
                 tab={true}
               />
             </div>
           </div>
           <div className="project-item-img md:w-1/2">
             <Image
-              src="/images/projects/careride.jpg"
+              src="/images/projects/fashionest.jpg"
               alt="Careride Nationwide"
               layout="responsive"
               className="rounded-lg"
