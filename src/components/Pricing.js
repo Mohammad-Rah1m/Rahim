@@ -81,7 +81,7 @@ const Pricing = () => {
             <p className="text-gray-400">Per Page</p>
           </div>
         </div>
-        <div className="p-3 flex flex-col gap-2">
+        <div className="p-5 flex flex-col gap-2">
           <div className="pricing-option flex gap-3">
             <FaCheck className="text-accent text-2xl" />
             <p className="text-white">Web Design</p>

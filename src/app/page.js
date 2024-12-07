@@ -12,9 +12,9 @@ import Services from "@/components/Services";
 export default function Home() {
   const projectImages = [
     "/images/projects/thebackerhive.jpg",
-    "/images/projects/Crowdfunderhub.jpg",
+    "/images/projects/crowdfunderhub.jpg",
     "/images/projects/binary-patch.jpg",
-    "/images/projects/skyline.jpg",
+    "/images/projects/fashionest.jpg",
     "/images/projects/instatidy.jpg",
     "/images/projects/careride.jpg",
   ];
