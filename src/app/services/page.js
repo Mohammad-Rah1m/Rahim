@@ -16,7 +16,7 @@ const page = () => {
       <div className="bg-customDarkGray py-20 px-5 xl:px-10 md:flex md:items-center md:gap-10 xl:gap-20">
         <div className="md:w-1/2">
           <Image
-            src="/images/services/services.png"
+            src="/images/services/Services.png"
             alt="Mohammad Rahim"
             className="rounded-lg"
             layout="responsive"
