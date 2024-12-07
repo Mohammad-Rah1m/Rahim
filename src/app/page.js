@@ -84,7 +84,7 @@ export default function Home() {
           <div className="about-contact flex flex-col lg:flex-row lg:justify-between xl:w-[80%] gap-5 bg-customGray rounded-lg p-5 mt-8">
             <div className="flex items-center gap-3">
               <div className="bg-accent w-[40px] h-[40px] rounded-full flex items-center justify-center">
-                <MdOutlineEmail className="text-2xl" />
+                <MdOutlineEmail className="text-2xl text-black" />
               </div>
               <div>
                 <p className="text-gray-400">Email Me</p>
@@ -93,7 +93,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-3">
               <div className="bg-accent w-[40px] h-[40px] rounded-full flex items-center justify-center">
-                <MdOutlineEmail className="text-2xl" />
+                <MdOutlineEmail className="text-2xl text-black" />
               </div>
               <div>
                 <p className="text-gray-400">Make a Call</p>
@@ -107,7 +107,6 @@ export default function Home() {
         </div>
         <div className="about-image md:w-1/3">
           <Image
-            id="logo"
             src="/images/about2.jpg" // Path to image in the public folder
             alt="Logo"
             className="cursor-pointer rounded-lg"

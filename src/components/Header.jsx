@@ -29,7 +29,7 @@ const Header = () => {
     <div className="header px-5 xl:px-10 2xl:px-52 fixed top-5 w-full z-50">
       <div
         className={`bg-customGray flex items-center justify-between p-3 rounded-md ${
-          isScrolled ? "shadow-[0px_3px_100px_0px_rgba(201,243,29,0.2)]" : ""
+          isScrolled ? "shadow-[0px_3px_100px_0px_rgba(201,243,29,0.3)]" : ""
         }`}
       >
         {/* Logo Section */}
