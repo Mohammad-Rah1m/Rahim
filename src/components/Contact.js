@@ -111,14 +111,15 @@ const Contact = () => {
                   name="service"
                   value={formData.service}
                   onChange={handleChange}
-                  className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-accent focus:border-accent"
+                  className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-accent focus:border-accent "
                 >
-                  <option value="" className="">
+                  <option value="" disabled className="text-gray-400">
                     Select a service
                   </option>
                   <option value="wordpress">WordPress</option>
                   <option value="react">React</option>
                   <option value="nextjs">Next.js</option>
+                  <option value="nextjs">Others</option>
                 </select>
               </div>
 
@@ -144,7 +145,7 @@ const Contact = () => {
               {/* Submit Button */}
               <button
                 type="submit"
-                className="w-full bg-accent text-black font-semibold py-2 px-4 rounded-md hover:bg-accent-dark focus:outline-none focus:ring focus:ring-accent-dark transition"
+                className="w-full bg-accent text-black font-medium py-2 px-4 rounded-md hover:bg-accentDark first-line:focus:outline-none focus:ring focus:ring-accent-dark transition"
               >
                 Submit
               </button>

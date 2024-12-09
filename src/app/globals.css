@@ -46,3 +46,23 @@ h1,h2{
 .slick-arrow{
   display: none !important;
 }
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px; /* Adjust scrollbar width */
+}
+
+.custom-scrollbar::-webkit-scrollbar-button {
+  display: none; /* Hides up and down arrows */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #888; /* Style scrollbar thumb */
+  border-radius: 4px; /* Round the scrollbar thumb */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Style scrollbar track */
+}
+.no-scroll {
+  overflow: hidden;
+}

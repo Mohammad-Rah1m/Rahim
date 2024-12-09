@@ -8,6 +8,7 @@ import Pricing from "@/components/Pricing";
 import Resume from "@/components/Resume";
 import Skills from "@/components/Skills";
 import Services from "@/components/Services";
+import Link from "next/link";
 
 export default function Home() {
   const projectImages = [
@@ -82,24 +83,28 @@ export default function Home() {
             </div>
           </div>
           <div className="about-contact flex flex-col lg:flex-row lg:justify-between xl:w-[80%] gap-5 bg-customGray rounded-lg p-5 mt-8">
-            <div className="flex items-center gap-3">
-              <div className="bg-accent w-[40px] h-[40px] rounded-full flex items-center justify-center">
-                <MdOutlineEmail className="text-2xl text-black" />
+            <Link href={"mailto:rahimchangezi5@gmail.com"}>
+              <div className="flex items-center gap-3">
+                <div className="bg-accent w-[40px] h-[40px] rounded-full flex items-center justify-center">
+                  <MdOutlineEmail className="text-2xl text-black" />
+                </div>
+                <div>
+                  <p className="text-gray-400">Email Me</p>
+                  <p className="text-white text-lg">rahimchangezi5@gmail.com</p>
+                </div>
               </div>
-              <div>
-                <p className="text-gray-400">Email Me</p>
-                <p className="text-white text-lg">rahimchangezi5@gmail.com</p>
-              </div>
-            </div>
+            </Link>
+            <Link href={"tel:+923138437243"}>
             <div className="flex items-center gap-3">
               <div className="bg-accent w-[40px] h-[40px] rounded-full flex items-center justify-center">
                 <MdOutlineEmail className="text-2xl text-black" />
               </div>
               <div>
                 <p className="text-gray-400">Make a Call</p>
-                <p className="text-white text-lg">+92-3138437243</p>
+                <p className="text-white text-lg">+92 3138437243</p>
               </div>
             </div>
+            </Link>
           </div>
           <div className="flex justify-center md:justify-start mt-8">
             <Button text="About Me" href="/about" />

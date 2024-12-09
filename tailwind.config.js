@@ -21,5 +21,6 @@ module.exports = {
     function ({ addVariant }) {
       addVariant("nth-child-even", "&:nth-child(even)");
     },
+    require('tailwind-scrollbar'),
   ],
 };
