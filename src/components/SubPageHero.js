@@ -4,7 +4,7 @@ import React from "react";
 
 const SubPageHero = ({ title, image_url }) => {
   return (
-    <div className="bg-black pt-36 pb-20 px-5 xl:px-10 lg:pt-40 xl:pt-44">
+    <div className="bg-black pt-36 pb-20 px-5 xl:px-10 2xl:px-52 lg:pt-40 xl:pt-44">
       <h1 className="text-white text-4xl md:text-5xl text-center font-semibold">
         {title}
       </h1>

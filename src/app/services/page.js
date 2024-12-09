@@ -11,9 +11,9 @@ const page = () => {
     <div>
       <SubPageHero
         title="Services"
-        image_url="/images/services/services-banner2.jpg"
+        image_url="/images/services/services-banner3.jpg"
       />
-      <div className="bg-customDarkGray py-20 px-5 xl:px-10 md:flex md:items-center md:gap-10 xl:gap-20">
+      <div className="bg-customDarkGray py-20 px-5 xl:px-10 2xl:px-52 md:flex md:items-center md:gap-10 xl:gap-20">
         <div className="md:w-1/2">
           <Image
             src="/images/services/Services.png"
@@ -54,7 +54,7 @@ const page = () => {
           <Pricing />
         </div>
       </div>
-      <div className="services py-20 px-5 xl:px-10 bg-customDarkGray">
+      <div className="services py-20 px-5 xl:px-10 2xl:px-52 bg-customDarkGray">
         <h6 className="font-medium text-gray-400 text-center">SERVICES</h6>
         <h2 className="text-white text-3xl md:text-4xl text-center font-semibold">
           My

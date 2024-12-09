@@ -4,7 +4,7 @@ import SkillsCart from "@/components/SkillsCart";
 
 const Skills = () => {
   return (
-    <div className="my-skills py-20 px-5 xl:px-10 bg-black flex flex-col md:flex-row items-center gap-10">
+    <div className="my-skills py-20 px-5 xl:px-10 2xl:px-52 bg-black flex flex-col md:flex-row items-center gap-10">
         <div className="skills-text md:w-[40%]">
           <h6 className="font-medium text-gray-400 text-center md:text-left">
             MY SKILLS

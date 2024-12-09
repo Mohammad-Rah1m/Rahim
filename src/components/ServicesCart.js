@@ -13,7 +13,7 @@ const ServicesCart = ({ serial, title, description }) => {
           <p className="text-gray-400 mt-3">{description}</p>
         </div>
       </div>
-      <div className="w-[10%]">
+      <div className="w-[10%] flex justify-end">
         <Image
           src="/images/arrow-bg.svg" // Path to image in the public folder
           alt="services-arrow"

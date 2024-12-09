@@ -52,7 +52,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="testimonial-carousel w-full px-5 xl:px-10 py-20 bg-customDarkGray md:flex md:gap-5 lg:gap-10">
+    <div className="testimonial-carousel w-full px-5 xl:px-10 2xl:px-52 py-20 bg-customDarkGray md:flex md:gap-5 lg:gap-10">
       <div className="md:w-1/3">
         <h6 className="font-medium text-gray-400 text-center md:text-left">
           CLIENT TESTIMONIALS

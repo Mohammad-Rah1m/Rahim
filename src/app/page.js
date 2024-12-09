@@ -33,8 +33,8 @@ export default function Home() {
             Web Designer &amp; Developer
           </h3>
           <p className="text-gray-300 mt-5 mb-5 text-center md:text-left">
-            Looking to develop your site and boost your business?<br></br>{" "}
-            You are in the right place!
+            Looking to develop your site and boost your business?<br></br> You
+            are in the right place!
           </p>
           <div className="flex justify-center md:justify-start">
             <Button text="Hire Me" href="/about" />
@@ -45,7 +45,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="about-section px-5 py-20 flex flex-col-reverse md:flex-row md:items-center gap-10 bg-customDarkGray xl:px-10 xl:gap-20">
+      <div className="about-section px-5 py-20 flex flex-col-reverse md:flex-row md:items-center gap-10 bg-customDarkGray xl:px-10 xl:gap-20 2xl:px-52">
         <div className="about-text md:w-2/3">
           <h6 className="font-medium text-gray-400 text-center md:text-left">
             ABOUT ME
@@ -108,8 +108,9 @@ export default function Home() {
         <div className="about-image md:w-1/3">
           <Image
             src="/images/about2.jpg" // Path to image in the public folder
-            alt="Logo"
-            className="cursor-pointer rounded-lg"
+            alt="About Image"
+            className="rounded-lg"
+            layout="responsive"
             width={500} // Specify a width to let Next.js calculate the height
             height={500}
           />

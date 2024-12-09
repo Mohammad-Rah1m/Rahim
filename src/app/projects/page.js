@@ -9,9 +9,9 @@ const page = () => {
     <div>
       <SubPageHero
         title="Projects"
-        image_url="/images/projects/projects-banner.jpg"
+        image_url="/images/projects/projects-banner2.jpg"
       />
-      <div className="bg-customDarkGray py-20 px-5 xl:px-10 md:flex md:items-center md:gap-10 xl:gap-20">
+      <div className="bg-customDarkGray py-20 px-5 xl:px-10 2xl:px-52 md:flex md:items-center md:gap-10 xl:gap-20">
         <div className="md:w-1/2">
           <Image
             src="/images/projects/Projects.png"
@@ -42,7 +42,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className="projects py-20 px-5 xl:px-10 bg-black flex flex-col gap-10">
+      <div className="projects py-20 px-5 xl:px-10 2xl:px-52 bg-black flex flex-col gap-10">
         <div className="project-item bg-customGray p-5 rounded-lg flex flex-col-reverse gap-10 md:flex-row md:items-center md:gap-20 lg:p-8 cursor-pointer border border-customGray hover:border-accent transition-colors duration-300 ease-in-out nth-child-even:md:flex-row-reverse">
           <div className="project-item-text md:w-1/2">
             <h6 className="font-medium text-gray-400 text-center md:text-left">

@@ -3,13 +3,13 @@ import React from 'react'
 
 const Resume = () => {
   return (
-    <div className="my-resume flex flex-col md:flex-row items-center py-20 px-5 xl:px-10 gap-10 xl:gap-20 bg-black">
+    <div className="my-resume flex flex-col md:flex-row items-center py-20 px-5 xl:px-10 2xl:px-52 gap-10 xl:gap-20 bg-black">
         <div className="resume-image md:w-1/3">
           <Image
-            id="logo"
             src="/images/resume.jpg" // Path to image in the public folder
-            alt="Logo"
-            className="cursor-pointer rounded-lg"
+            alt="resume image"
+            className="rounded-lg"
+            layout="responsive"
             width={500} // Specify a width to let Next.js calculate the height
             height={500}
           />
@@ -28,7 +28,6 @@ const Resume = () => {
               <div className="resume-item flex gap-5">
                 <div>
                   <Image
-                    id="logo"
                     src="/images/arrow-bg.svg" // Path to image in the public folder
                     alt="Logo"
                     className="cursor-pointer rounded-lg mt-1"
@@ -47,7 +46,6 @@ const Resume = () => {
               <div className="resume-item flex gap-5">
                 <div>
                   <Image
-                    id="logo"
                     src="/images/arrow-bg.svg" // Path to image in the public folder
                     alt="Logo"
                     className="cursor-pointer rounded-lg mt-1"
@@ -69,7 +67,6 @@ const Resume = () => {
               <div className="resume-item flex gap-5">
                 <div>
                   <Image
-                    id="logo"
                     src="/images/arrow-bg.svg" // Path to image in the public folder
                     alt="Logo"
                     className="cursor-pointer rounded-lg mt-1"
@@ -88,7 +85,6 @@ const Resume = () => {
               <div className="resume-item flex gap-5">
                 <div>
                   <Image
-                    id="logo"
                     src="/images/arrow-bg.svg" // Path to image in the public folder
                     alt="Logo"
                     className="cursor-pointer rounded-lg mt-1"

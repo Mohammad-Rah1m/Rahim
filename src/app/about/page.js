@@ -10,8 +10,8 @@ import Testimonial from "@/components/Testimonial";
 const page = () => {
   return (
     <div>
-      <SubPageHero title="About" image_url="/images/about/about-banner3.jpg" />
-      <div className="bg-customDarkGray py-20 px-5 xl:px-10 md:flex md:items-center md:gap-10 xl:gap-20">
+      <SubPageHero title="About" image_url="/images/about/about-banner5.jpg" />
+      <div className="bg-customDarkGray py-20 px-5 xl:px-10 2xl:px-52 md:flex md:items-center md:gap-10 xl:gap-20">
         <div className="md:w-1/2">
           <Image
             src="/images/about/About.png"

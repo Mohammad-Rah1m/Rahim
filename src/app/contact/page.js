@@ -6,9 +6,9 @@ const Page = () => {
     <div>
       <SubPageHero
         title="Contact"
-        image_url="/images/contact/contact-banner2.jpg"
+        image_url="/images/contact/contact-banner3.jpg"
       />
-      <div className="form-container py-20 px-5 xl:px-10 flex justify-center items-center bg-customDarkGray">
+      <div className="form-container py-20 px-5 xl:px-10 2xl:px-52 flex justify-center items-center bg-customDarkGray">
         <Contact/>
       </div>
     </div>
