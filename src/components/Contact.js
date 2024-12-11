@@ -114,15 +114,17 @@ const Contact = () => {
                   name="service"
                   value={formData.service}
                   onChange={handleChange}
-                  className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-accent focus:border-accent text-gray-400"
+                  className={`mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-accent focus:border-accent ${
+                    formData.service === "" ? "text-gray-400" : "text-black"
+                  }`}
                 >
                   <option value="" disabled className="text-gray-400">
                     Select a service
                   </option>
-                  <option value="wordpress">WordPress</option>
-                  <option value="react">React</option>
-                  <option value="nextjs">Next.js</option>
-                  <option value="nextjs">Others</option>
+                  <option value="wordpress" className='text-black'>WordPress</option>
+                  <option value="react" className='text-black'>React</option>
+                  <option value="nextjs" className='text-black'>Next.js</option>
+                  <option value="nextjs" className='text-black'>Others</option>
                 </select>
               </div>
 
