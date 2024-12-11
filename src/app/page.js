@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <div className="homepage">
-      <div className="hero-section px-5 xl:px-10 2xl:px-52 lg:h-screen h-auto bg-black flex flex-col-reverse md:flex-row items-center pt-32 pb-20 justify-between">
+      <div className="hero-section px-5 xl:px-10 2xl:px-52 lg:h-screen h-auto bg-black flex flex-col-reverse md:flex-row items-center pt-20 md:pt-32 pb-20 justify-between">
         <div className="hero-text flex flex-col gap-2 lg:w-1/2">
           <h5 className="text-gray-500 text-xl text-center md:text-left md:text-2xl">
             Hello, I&apos;m
