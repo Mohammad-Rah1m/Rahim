@@ -114,7 +114,7 @@ const Contact = () => {
                   name="service"
                   value={formData.service}
                   onChange={handleChange}
-                  className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-accent focus:border-accent "
+                  className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-accent focus:border-accent text-gray-400"
                 >
                   <option value="" disabled className="text-gray-400">
                     Select a service
