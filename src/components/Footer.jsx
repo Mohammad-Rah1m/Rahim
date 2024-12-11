@@ -94,7 +94,7 @@ const Footer = () => {
             </p>
           </div>
         </Link>
-        <Link
+        {/* <Link
           href={"https://github.com/Mohammad-Rah1m"}
           target="_blank"
           rel="noopener noreferrer"
@@ -105,7 +105,7 @@ const Footer = () => {
               Github
             </p>
           </div>
-        </Link>
+        </Link> */}
         <Link
           href={"https://www.linkedin.com/in/mohammad-rah1m/"}
           target="_blank"
