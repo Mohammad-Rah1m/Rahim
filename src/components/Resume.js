@@ -6,7 +6,7 @@ const Resume = () => {
     <div className="my-resume flex flex-col md:flex-row items-center py-20 px-5 xl:px-10 2xl:px-52 gap-10 xl:gap-20 bg-black">
         <div className="resume-image md:w-1/3">
           <Image
-            src="/images/resume.jpg" // Path to image in the public folder
+            src="/images/resume2.jpg" // Path to image in the public folder
             alt="resume image"
             className="rounded-lg"
             layout="responsive"

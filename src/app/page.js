@@ -112,7 +112,7 @@ export default function Home() {
         </div>
         <div className="about-image md:w-1/3">
           <Image
-            src="/images/about2.jpg" // Path to image in the public folder
+            src="/images/about/about-image.jpg" // Path to image in the public folder
             alt="About Image"
             className="rounded-lg"
             layout="responsive"
