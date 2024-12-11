@@ -92,7 +92,10 @@ const Contact = () => {
                   id="phone"
                   name="phone"
                   value={formData.phone}
-                  onChange={handleChange}
+                  onChange={(e) => {
+                    const numericValue = e.target.value.replace(/\D/g, ""); // Remove non-numeric characters
+                    handleChange({ target: { name: e.target.name, value: numericValue } });
+                  }}
                   placeholder="Enter your phone number"
                   className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-accent focus:border-accent"
                 />

@@ -118,14 +118,17 @@ export default function Popup() {
                 id="phone"
                 name="phone"
                 value={planData.phone}
-                onChange={handleChange}
+                onChange={(e) => {
+                  const numericValue = e.target.value.replace(/\D/g, ""); // Remove non-numeric characters
+                  handleChange({ target: { name: e.target.name, value: numericValue } });
+                }}
                 placeholder="Enter your phone number"
                 className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-accent"
               />
             </div>
 
             {/* Service Dropdown */}
-            <div>
+            {/* <div>
               <label
                 htmlFor="service"
                 className="block text-sm font-medium text-black"
@@ -147,7 +150,7 @@ export default function Popup() {
                 <option value="nextjs">Next.js</option>
                 <option value="nextjs">Others</option>
               </select>
-            </div>
+            </div> */}
 
             {/* Message Text Area */}
             <div>
